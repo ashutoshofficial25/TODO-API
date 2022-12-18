@@ -54,7 +54,7 @@ const updateTodo = async (req, res) => {
       req.body
     );
     res.status(201).json({
-      message: "creted successfully",
+      message: "updated successfully",
       data: updateTodo,
     });
   } catch (error) {
